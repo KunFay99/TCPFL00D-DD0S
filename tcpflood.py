@@ -91,7 +91,7 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m[\033[1m+\033[92m]\033[33mפרוטוקול בקרת שידורFL00D \033[32m " +str(u)+ " \033[32mשלח חבילות התקפה \033[37m" +ip+ "\ 033[0m")
+        print("\033[92m[🌠\033[92m] \033[33mפרוטוקול בקרת שידורFL00D  \033[32m" +str(u)+ " \033[32mשלח חבילות התקפה \033[37m  " +ip+ "  \033[0m")
         
     except:
         s.close()
