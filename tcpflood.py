@@ -95,7 +95,7 @@ def start():
         
     except:
         s.close()
-        print("\033[97m[💥\033[97m]\033[35mמציפים למטה")
+        print("\033[97m[💥\033[97m] \033[97mמציפים למטה")
 
 for x in range(thread):
   thred = threading.Thread(target=start)
