@@ -104,8 +104,9 @@ def start():
         
     except:
         s.close()
+        print("033[33m———————————————————————————————————————————————————————————★033[0m")
         print("\033[97m[+\033[97m]  \033[32mServer \033[1mMay be \033[33mDown  \033[0m")
-        
+        print("033[97m———————————————————————————————————————————————————————————★033[0m")
 for x in range(thread):
   thred = threading.Thread(target=start)
   thred.start()
