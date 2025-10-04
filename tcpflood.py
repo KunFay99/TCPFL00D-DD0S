@@ -34,25 +34,25 @@ class bcolors:
 os.system("clear")
 print("""
 """)
-print("\033[94m————————————————————————⟩⟩⟩")
+print("\033[94m==>")
 ip = str(input("\033[93m[\033[93m+\033[92m]                      ⟩⟩ IP Target : "))
-print("\033[94m————————————————————————⟩⟩⟩")
+print("\033[94m==>")
 port = int(input("\033[92m[\033[95m+\033[92m]                      ⟩⟩ Port : "))
-print("\033[94m————————————————————————⟩⟩⟩")
+print("\033[94m==>")
 packs = int(input("\033[92m[\033[95m+\033[92m]                      ⟩⟩ Packets{0} : "))
-print("\033[94m————————————————————————⟩⟩⟩")
+print("\033[94m==>")
 thread = int(input("\033[92m[\033[95m+\033[92m]                      ⟩⟩ Threads : "))
-print("\033[94m————————————————————————⟩⟩⟩")
+print("\033[94m==>")
 time.sleep(5),
-print("\033[96m                         ⟩⟩  KUNFAY \033[0m "),
+print("\033[96m25% "),
 time.sleep(5),
-print("\033[92m                         ⟩⟩  DEDICATED \033[0m "),
+print("\033[92m50% "),
 time.sleep(5),
-print("\033[1m                         ⟩⟩  FOR \033[0m "),
+print("\033[1m75%  "),
 time.sleep(5),
-print("\033[97m                         ⟩⟩  P4L15T1N14N \033[0m "),
+print("\033[97m100%"),
 time.sleep(5),
-print("\033[95m                         ⟩⟩  PEOPLE \033[0m "),
+print("\033[95mGo...!!"),
 time.sleep(5),  
 def animated_marker():
     widgets = ['\033[94m[\033[97m#\033[94m#\033[97mLoading: progressbar.AnimatedMarker()\033[0m']
