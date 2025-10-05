@@ -78,7 +78,7 @@ def start():
         
     except:
         s.close()
-        print("\033[97m[★\033[97m]  \033[32mFlood\033[37mHTTP   \033[33mServer\033[93m::: \033[32mMeybe\033[37mDown \033[0m")
+        print("\033[97m[★\033[97m]  \033[32mFlood\033[37mHTTP  \033[38mServer/IP\033[93m::: \033[32mMeybe\033[33mDown \033[0m")
 for x in range(thread):
   thred = threading.Thread(target=start)
   thred.start()
