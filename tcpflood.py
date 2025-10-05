@@ -33,22 +33,22 @@ print("""
 \033[37m╚═════════════════════════════════════════════════════╝
 """)
 print("\033[94m______________________")
-ip = str(input("\033[92m[]⟩⟩ IP Target : "))
+ip = str(input("\033[92m⟩⟩ IP Target : "))
 print("\033[94m______________________")
-port = int(input("\033[92m[]⟩⟩ Port : "))
+port = int(input("\033[92m⟩⟩ Port : "))
 print("\033[94m______________________")
-packs = int(input("\033[92m[]⟩⟩ Packets{0} : "))
+packs = int(input("\033[92m⟩⟩ Packets{0} : "))
 print("\033[94m______________________")
-thread = int(input("\033[92m[]⟩⟩ Threads : "))
+thread = int(input("\033[92m⟩⟩ Threads : "))
 print("\033[94m______________________")
 time.sleep(5),
-print("\033[93m======>25% "),
+print("\033[33m======>25% "),
 time.sleep(5),
-print("\033[93m===========>50% "),
+print("\033[32m===========>50% "),
 time.sleep(5),
-print("\033[93m================>75%  "),
+print("\033[4m================>75%  "),
 time.sleep(5),
-print("\033[9m====================>100%"),
+print("\033[1m====================>100%"),
 time.sleep(5),
 print("\033[33m  B8SMILLAH.."),
 time.sleep(5),  
