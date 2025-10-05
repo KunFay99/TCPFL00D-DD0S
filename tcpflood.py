@@ -75,7 +75,7 @@ def start():
         u += 1
         print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[33mTCP  \033[31mTarget\033[37mIP\033[1;35m::: \033[0;37m" +ip+ "  \033[0m")
 
-  except:
+    except:
         s.close()
         print("\033[97m[★\033[97m]  \033[32mFlood\033[37mTCP  \033[38mServer/IP\033[93m::: \033[32mMeybe\033[33mDown \033[0m")
 for x in range(thread):
