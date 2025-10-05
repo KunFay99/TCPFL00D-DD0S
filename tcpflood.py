@@ -73,7 +73,9 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[33mTCP  \033[31mTarget\033[37mIP\033[1;35m :::  \033[0;37m" +ip+ "  🇪🇭\033[0m")
+        print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[33mTCP  \033[33mTarget\033[37mIP\033[1;35m :::  \033[95m" +ip+ "  🇪🇭\033[0m")
+        print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[33mTCP  \033[33mTarget\033[37mIP\033[1;35m :::  \033[94m" +ip+ "  🇪🇭\033[0m")
+        print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[33mTCP  \033[33mTarget\033[37mIP\033[1;35m :::  \033[93m" +ip+ "  🇪🇭\033[0m")
 
     except:
         s.close()
