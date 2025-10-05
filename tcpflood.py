@@ -13,9 +13,9 @@ import progressbar
 
 # Colors
 class bcolors: 
-YELLOW = '\033[33m
-BLUE = '\033[32m
-inof
+YELLOW = '\033[33m'
+BLUE = '\033[32m'
+inof 
     
 # CLEAR
 os.system("clear")
